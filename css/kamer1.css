@@ -1,0 +1,21 @@
+.kamer1 img{
+    width: 900px;
+    height: 600px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#colorOrange {
+    color: rgb(180, 148, 3);
+    font-size: 2rem;
+}
+
+.up .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info .text{
+  margin-top: 2rem;
+}

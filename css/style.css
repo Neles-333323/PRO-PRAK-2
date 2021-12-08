@@ -1,0 +1,205 @@
+body, * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1b1b1b;
+} 
+
+/* Begin Home pagina */
+
+/* Bovenste helft Plaatje en text */
+
+#colorOrange {
+    color: rgb(180, 148, 3);
+    font-size: 2rem;
+}
+
+.up .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.up .row .column {
+    width: 800px;
+    height: 725px;
+    margin-bottom: 5rem;
+}
+
+.up .row .column img,
+.down .row .column img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+/* Onderste helft 3 plaatjes */
+
+.down {
+    margin: 0 0 10rem 0;
+}
+
+.down .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.down .row .column {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.down .row .column img {
+    margin-bottom: 1.5rem;
+}
+
+.down .row .column a {
+    padding: .8rem 4rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #f5882d;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    border-color: #f5882d;
+}
+
+.down .row .column a:hover {
+    color: white;
+    border-color: white;
+    transition: .5s;
+}
+
+
+/* Responive maken */
+
+@media only screen and (max-width: 1600px) {
+    .up .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .down .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .up .row .column {
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .up .row .column {
+        width: 600px;
+        height: 600px;
+    }
+
+    .up .row {
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .up .row .column,
+    .down .row .column {
+        width: 500px;
+        height: 500px;
+    }
+
+    .up .row {
+        margin-bottom: 23rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .up .row .column,
+    .down .row .column {
+        width: 400px;
+        height: 400px;
+    }
+
+    .up .row {
+        margin-bottom: 43rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .up .row .column,
+    .down .row .column {
+        width: 300px;
+        height: 300px;
+    }
+
+    .up .row {
+        margin-bottom: 78em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .up .row .column,
+    .down .row .column {
+        width: 200px;
+        height: 200px;
+    }
+
+    .up .row {
+        margin-bottom: 133rem;
+    }
+}
+
+/* Einde Home pagina */
+
+/* Begin Score pagina */
+
+    form {
+        width: 30rem;
+        background-color: black;
+        margin: 0 auto;
+        padding: 2rem 0;
+        border-radius: 2rem;
+    }
+
+    form .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #score-formulier {
+        color: rgb(180, 148, 3);
+        margin-bottom: 2rem;
+    }
+
+    form .center label {
+        color: rgb(180, 148, 3);
+        font-size: 1.2rem;
+        position: relative;
+        float: left;
+    }
+
+    form .center input {
+        font-size: 1rem;
+        width: 20rem;
+        height: 2.5rem;
+        margin-bottom: .2rem;
+    }
+
+    form .center #button_1 {
+        width: 5rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: 3px solid black;
+    }
+
+/* Einde Score pagina */
