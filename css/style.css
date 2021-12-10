@@ -75,6 +75,7 @@ body {
     color: white;
     border-color: white;
     transition: .5s;
+    cursor: pointer;
 }
 
 
@@ -162,6 +163,8 @@ body {
 
 /* Begin Score pagina */
 
+/* ScoreFormulier */
+
     form {
         width: 30rem;
         background-color: black;
@@ -174,18 +177,21 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     #score-formulier {
         color: rgb(180, 148, 3);
         margin-bottom: 2rem;
+        text-align: center;
     }
 
     form .center label {
         color: rgb(180, 148, 3);
         font-size: 1.2rem;
-        position: relative;
-        float: left;
+        width: 20rem;
+        display: flex;
+        justify-content: flex-start;
     }
 
     form .center input {
@@ -196,10 +202,42 @@ body {
     }
 
     form .center #button_1 {
-        width: 5rem;
-        height: 2rem;
-        border-radius: 1rem;
-        border: 3px solid black;
+        width: 7rem;
+        height: 2.5rem;
+        background-color: black;
+        color: rgb(180, 148, 3);
+        border-radius: 2rem;
+        border: 2px solid transparent;
+        border-color: #f5882d;
     }
+
+    form .center #button_1:hover {
+        color: white;
+        border-color: white;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px) {
+        form {
+            width: 80vw;
+        }
+
+        form .center label {
+            width: 53vw;
+        }
+
+        form .center input {
+            width: 53vw;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        #score-formulier {
+            font-size: 8vw;
+        }
+    }
+
+    /* Eind Scoreformulier */
 
 /* Einde Score pagina */
