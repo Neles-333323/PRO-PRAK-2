@@ -28,7 +28,7 @@
                 <span class="bar"></span>
             </a>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="#">activiteiten</a>
                     <ul>
                         <li><a href="kamer1.html">Kamer 1</a></li>
@@ -44,20 +44,20 @@
     </header>
 
 
-    <form autocomplete="off" method="post" action="overons.html">
+    <form autocomplete="off" method="post" action="create.php">
         <div class="center">
             <h1 id="score-formulier">Score formulier</h1>
-            <label for="">Voornaam<sup>*</sup></label>
-            <input type="text" name="Voornaam" placeholder="Voornaam" required>
+            <label for="inputVoornaam">voornaam<sup>*</sup></label>
+            <input type="text" name="voornaam" placeholder="voornaam" id="inputVoornaam" required>
             <br>
-            <label for="">Tussenvoegsel</label>
-            <input type="text" name="Voornaam" placeholder="Tussenvoegsel">
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" id="tussenvoegsel" name="tussenvoegsel" placeholder="Tussenvoegsel">
             <br>
-            <label for="">Achternaam<sup>*</sup></label>
-            <input type="text" list="test" name="Voornaam" placeholder="Achternaam" required>
+            <label for="achternaam">Achternaam<sup>*</sup></label>
+            <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
             <br>
-            <label for="">E-mail</label>
-            <input type="email" name="Voornaam" placeholder="E-mail">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
             <br>
             <label for="">Scoretijd<sup>*</sup></label>
             <input type="text" name="Voornaam" placeholder="Scoretijd" required>
