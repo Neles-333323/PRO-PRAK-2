@@ -19,7 +19,8 @@ body {
 .up .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 5rem;
 }
 
 .up .row .column {
@@ -45,7 +46,8 @@ body {
 .down .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 5rem;
 }
 
 .down .row .column {
@@ -81,7 +83,7 @@ body {
 
 /* Responive maken */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1770px) {
     .up .row {
         flex-direction: column;
         align-items: center;
@@ -162,6 +164,33 @@ body {
 /* Einde Home pagina */
 
 /* Begin Score pagina */
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 4rem auto;
+    border-radius: 2rem;
+}
+td, th {
+         border: 1px solid #363636;
+         text-align: left;
+         padding: .7rem;
+     }
+     th {
+         background-color: white;
+         border-bottom: 1px solid black;
+         font-family: serif;
+         font-size: 1.2rem;
+     }
+     td {
+         font-family: sans-serif;
+         font-size: .9rem;
+     }
+
+     tr {
+        background-color: black;
+        color: rgb(180, 148, 3);
+     }
 
 /* ScoreFormulier */
 
