@@ -8,12 +8,12 @@ $servername = "localhost";
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 
-    $voornaam = $_POST["voornaam"];
-    $tussenvoegsel = $_POST["tussenvoegsel"];
-    $achternaam = $_POST["achternaam"];
+    $teamnaam = $_POST["teamnaam"];
     $email = $_POST["email"];
+    $scoretijd = $_POST["scoretijd"];
+    $tevredeheidsscore = $_POST["tevredeheidsscore"];
 
-    $sql = "INSERT INTO `score` (`id`, `voornaam`, `tussenvoegsel`, `achternaam`, `email`) VALUES (NULL, '$voornaam', '$tussenvoegsel', '$achternaam', '$email');";
+    $sql = "INSERT INTO `score` (`id`, `teamnaam`, `email`, `scoretijd`, `tevredeheidsscore`) VALUES (NULL, '$teamnaam', '$email', '$scoretijd', '$tevredeheidsscore');";
 
     $result = mysqli_query($conn, $sql);
 
@@ -27,5 +27,4 @@ $servername = "localhost";
       echo "<h1>Uw gegevens zijn niet opgeslagen, probeer het nog eens";
       header("Refresh:3.5; url=./score.php");
     }
-
 ?>
