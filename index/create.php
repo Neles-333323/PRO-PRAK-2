@@ -22,7 +22,7 @@ $servername = "localhost";
 
     if ($result) {
         echo "<h1>Uw gegevens zijn opgeslagen";
-        header("Refresh:0; url=./score.html");
+        header("Refresh:0; url=./score.php");
     } else{
       echo "<h1>Uw gegevens zijn niet opgeslagen, probeer het nog eens";
       header("Refresh:3.5; url=./score.php");
