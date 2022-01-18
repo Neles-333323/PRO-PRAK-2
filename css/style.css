@@ -366,81 +366,81 @@ body {
 
 /* Einde Score pagina */
 
-.overons .center {
+.contact .center {
     background-color: rgb(19, 19, 19);
     color: rgb(180, 148, 3);
     border-radius: 1rem;
-    width: 17vw;
+    width: 50rem;
     margin: 0 auto;
     padding: 2.5rem 5rem;
     text-align: left;
 }
 
-.overons .center h1 {
+.contact .center h1 {
     margin: 0 0 5rem 0;
     font-size: 3rem;
     margin: 0 1rem;
 }
 
-.overons .center h1 a {
+.contact .center h1 a {
     color: rgb(180, 148, 3);
     text-decoration: none;
 }
 
-.overons .center h1 #contact {
+.contact .center h1 #contact {
     text-decoration: underline;
 }
 
-.overons .center h1 #locatie {
+.contact .center h1 #locatie {
     text-decoration: underline;
 }
 
-.overons .center p {
+.contact .center p {
     font-size: 1.3rem;
     color: white;
 }
 
-.overons .center ul {
+.contact .center ul {
     margin: 4rem 0;
 }
 
-.overons .center ul h3 {
+.contact .center ul h3 {
     margin: 2rem 0 1rem 0;
 }
 
-.overons .center h2 {
+.contact .center h2 {
     font-size: 1.6rem;
 }
 
-.overons .center ul li {
+.contact .center ul li {
     margin: .5rem 0;
     color: white;
     font-size: 1.2rem;
 }
 
-.overons .center ul li a {
+.contact .center ul li a {
     color: white;
 }
 
-.overons .center #adres p {
+.contact .center #adres p {
     margin: .3rem 0;
     padding: 0;
 }
 
-.overons .center #margin {
+.contact .center #margin {
     margin: 0 0 3rem 0;
 }
 
-.overons .flex {
+.contact .flex {
     display: flex;
     margin: 0 0 5rem 0;
 }
 
-.overons .maps {
+.contact .maps {
     width: 100%;
 }
 
-.overons iframe {
+.contact iframe {
     width: 500px;
     height: 500px;
 }

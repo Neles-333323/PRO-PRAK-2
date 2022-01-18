@@ -165,7 +165,7 @@
   </table>
 
 
-  <form autocomplete="off" method="post" action="create.php">
+  <form autocomplete="off" method="post" action="./create.php">
     <div class="center">
       <h1 id="score-formulier">Score formulier</h1>
       <label for="inputTeamnaam">Teamnaam<sup>*</sup></label>

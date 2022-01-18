@@ -13,6 +13,8 @@ $servername = "localhost";
     $scoretijd = $_POST["scoretijd"];
     $tevredeheidsscore = $_POST["tevredeheidsscore"];
 
+    echo $teamnaam;
+
     $sql = "INSERT INTO `score` (`id`, `teamnaam`, `email`, `scoretijd`, `tevredeheidsscore`) VALUES (NULL, '$teamnaam', '$email', '$scoretijd', '$tevredeheidsscore');";
 
     $result = mysqli_query($conn, $sql);
@@ -21,10 +23,10 @@ $servername = "localhost";
     // echo $sql;
 
     if ($result) {
-        echo "<h1>Uw gegevens zijn opgeslagen";
-        header("Refresh:0; url=./score.php");
+        echo "<h1>Uw gegevens zijn opgeslagen</h1>";
+        header("Refresh:30; url=./score.php");
     } else{
-      echo "<h1>Uw gegevens zijn niet opgeslagen, probeer het nog eens";
-      header("Refresh:3.5; url=./score.php");
+      echo "<h1>Uw gegevens zijn niet opgeslagen, probeer het nog eens</h1>";
+      header("Refresh:30; url=./score.php");
     }
 ?>
