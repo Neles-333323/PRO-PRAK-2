@@ -366,81 +366,81 @@ body {
 
 /* Einde Score pagina */
 
-.center {
+.overons .center {
     background-color: rgb(19, 19, 19);
     color: rgb(180, 148, 3);
     border-radius: 1rem;
-    width: 50rem;
+    width: 17vw;
     margin: 0 auto;
     padding: 2.5rem 5rem;
     text-align: left;
 }
 
-.center h1 {
+.overons .center h1 {
     margin: 0 0 5rem 0;
     font-size: 3rem;
     margin: 0 1rem;
 }
 
-.center h1 a {
+.overons .center h1 a {
     color: rgb(180, 148, 3);
     text-decoration: none;
 }
 
-.center h1 #contact {
+.overons .center h1 #contact {
     text-decoration: underline;
 }
 
-.center h1 #locatie {
+.overons .center h1 #locatie {
     text-decoration: underline;
 }
 
-.center p {
+.overons .center p {
     font-size: 1.3rem;
     color: white;
 }
 
-.center ul {
+.overons .center ul {
     margin: 4rem 0;
 }
 
-.center ul h3 {
+.overons .center ul h3 {
     margin: 2rem 0 1rem 0;
 }
 
-.center h2 {
+.overons .center h2 {
     font-size: 1.6rem;
 }
 
-.center ul li {
+.overons .center ul li {
     margin: .5rem 0;
     color: white;
     font-size: 1.2rem;
 }
 
-.center ul li a {
+.overons .center ul li a {
     color: white;
 }
 
-.center #adres p {
+.overons .center #adres p {
     margin: .3rem 0;
     padding: 0;
 }
 
-.center #margin {
+.overons .center #margin {
     margin: 0 0 3rem 0;
 }
 
-.flex {
+.overons .flex {
     display: flex;
     margin: 0 0 5rem 0;
 }
 
-.maps {
+.overons .maps {
     width: 100%;
 }
 
-iframe {
+.overons iframe {
     width: 500px;
     height: 500px;
 }
