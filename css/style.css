@@ -366,6 +366,8 @@ body {
 
 /* Einde Score pagina */
 
+/* Begin Contact/Locatie */
+
 .contact .center {
     background-color: rgb(19, 19, 19);
     color: rgb(180, 148, 3);
@@ -386,6 +388,10 @@ body {
     color: rgb(180, 148, 3);
     text-decoration: none;
 }
+
+.contact .center h1 a:hover {
+    color: white;
+}   
 
 .contact .center h1 #contact {
     text-decoration: underline;
@@ -444,3 +450,5 @@ body {
     width: 500px;
     height: 500px;
 }
+
+/* Eind Contact/Locatie */
