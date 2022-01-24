@@ -366,6 +366,8 @@ body {
 
 /* Einde Score pagina */
 
+/* Begin Contact/Locatie */
+
 .contact .center {
     background-color: rgb(19, 19, 19);
     color: rgb(180, 148, 3);
@@ -386,6 +388,10 @@ body {
     color: rgb(180, 148, 3);
     text-decoration: none;
 }
+
+.contact .center h1 a:hover {
+    color: white;
+}   
 
 .contact .center h1 #contact {
     text-decoration: underline;
@@ -443,4 +449,58 @@ body {
 .contact iframe {
     width: 500px;
     height: 500px;
+}
+
+/* Eind Contact/Locatie */
+
+/* Begin Over Ons pagina */
+
+.ontstaan h1 {
+    color: rgb(180, 148, 3);
+    font-size: 3rem;
+    text-align: left; 
+    padding-left: 2.5rem;   
+}
+
+.ontstaan p{
+    color: rgb(180, 148, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.lobby img{
+    position: absolute;
+    right: 0;
+    top: 0;
+   margin-top: 12rem;
+   max-width: 900px;
+   max-height: 380px;
+   margin-right: 3rem;
+}
+
+.doel {
+       color: rgb(180, 148, 3);
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 6rem;
+}
+
+.doel img{
+    max-height: 380px;
+    max-width: 900px;
+    margin-top: 3rem;
+}
+
+.team h1{
+    position: absolute;
+    right: 23rem;
+   margin-top: 6rem;
+}
+
+.team p{
+    position: absolute;
+    right: 12rem;
+   margin-top: 9rem; 
 }
