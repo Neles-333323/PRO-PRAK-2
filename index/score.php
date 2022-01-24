@@ -44,7 +44,7 @@
   </header>
 
 
-  <div class="radius">
+  <!-- <div class="radius">
     <table>
         <thead>
           <tr>
@@ -162,7 +162,50 @@
       </tr>
 
     </tbody>
-  </table>
+  </table> -->
+
+  <?php
+
+    include("./connect_db.php");
+
+    $sql = "SELECT * FROM `score`";
+
+    $result = mysqli_query($conn, $sql);
+
+    $rows = "";
+
+    while($record = mysqli_fetch_assoc($result)) {
+        $rows .= "<tr>
+                    <td>{$record['id']}</td>
+                    <td>{$record['teamnaam']}</td>
+                    <td>{$record['email']}</td>
+                    <td>{$record['scoretijd']}</td>
+                    <td>{$record['tevredeheidsscore']}</td>
+                </tr>";
+    }
+
+?>
+
+  <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">id</th>
+                            <th scope="col">teamnaam</th>
+                            <th scope="col">email</th>
+                            <th scope="col">scoretijd</th>
+                            <th scope="col">tevredeheidsscore</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <?php echo $rows; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
 
   <form autocomplete="off" method="post" action="./create.php">
